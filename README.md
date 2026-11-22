@@ -4,6 +4,12 @@
 
 **English:** An animated explainer built with Remotion about the AMD chip supply chain, semiconductor manufacturing, chiplets, AI accelerators, ROCm vs CUDA, and China's AI computing ecosystem.
 
+![Remotion · AMD chip supply chain animated explainer](assets/preview-global-supply-chain.png)
+
+> 从 AMD 芯片设计到台积电制造，再到 AI 加速器、软件生态与中国算力产业链：用一支动画看懂一颗芯片背后的协作网络。
+
+[查看源码](https://github.com/okeya24/amd-chip-supply-chain-animation) · [查看制作与分享说明](docs/SHARE.md)
+
 ## 项目内容
 
 - `AmdChipNetwork`：16:9、1080p、30 fps 的长篇动画科普，涵盖 AMD 供应链、Chiplet、Ryzen / EPYC / Instinct、MI300X、ROCm 与 CUDA，以及中国芯片产业链案例。
@@ -11,6 +17,12 @@
 - 画面包含供应链地图、芯片结构、产品卡片、平台对照、章节字幕和原创配乐。
 
 地图上的地点与供应链关系用于动画示意，不能代替具体企业合同、产线分布或实时市场数据。
+
+### 中国 AI 算力产业链章节
+
+动画后段从全球网络转向中国案例，展示芯片设计、晶圆制造、封装测试与软件系统之间的连接。相关内容均按画面标注来源及示意边界。
+
+![China AI computing and semiconductor supply chain animation preview](assets/preview-china-ai-chain.png)
 
 ## 快速预览
 
@@ -41,5 +53,7 @@ node scripts/amd-china-lift.mjs
 ## 关键词
 
 AMD 芯片供应链、半导体产业链动画、芯粒 Chiplet、EDA 设计软件、台积电晶圆制造、ASML 光刻、MI300X、ROCm、CUDA、中国 AI 算力、Remotion 动画科普。
+
+**English keywords:** AMD chip supply chain, semiconductor industry, semiconductor manufacturing, chiplet, EDA, TSMC, ASML lithography, AI accelerator, MI300X, ROCm, CUDA, China AI computing, Remotion animation.
 
 AMD、NVIDIA、TSMC、ASML 及其他企业名称和标志属于其各自权利人。本项目用于动画科普与识别；如需再分发媒体素材，请先确认相应使用许可。地图素材的来源与说明请以 `public/amd-map/` 中文件及其元数据为准。
